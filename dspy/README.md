@@ -1,0 +1,5 @@
+DSPy is the framework for solving advanced tasks with language models (LMs) and retrieval models (RMs). DSPy unifies techniques for prompting and fine-tuning LMs — and approaches for reasoning, self-improvement, and augmentation with retrieval and tools. All of these are expressed through modules that compose and learn.
+
+The DSPy compiler bootstraps prompts and finetunes from minimal data without needing manual labels for the intermediate steps in your program. Instead of brittle "prompt engineering" with hacky string manipulation, you can explore a systematic space of modular and trainable pieces.
+
+ DSPy gives you the right general-purpose modules (e.g., ChainOfThought, Retrieve, etc.) and takes care of optimizing their prompts for your program and your metric, whatever they aim to do. Whenever you modify your code, your data, or your validation constraints, you can compile your program again and DSPy will create new effective prompts that fit your changes.
