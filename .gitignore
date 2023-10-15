@@ -1,3 +1,4 @@
+haystack/web_crawler/crawled_files
 haystack/table_query_proj_1/all-the-news-trimmed_1.csv
 haystack/table_query_proj_1/all-the-news-trimmed_1.parquet
 langchain_o/venv
